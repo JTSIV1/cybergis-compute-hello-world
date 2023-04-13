@@ -1,7 +1,11 @@
 import json
 import os
+import time
 
 print('running main...\n')
+
+print('waiting 30 min (1800 sec)')
+time.sleep(1800)
 
 print('./job.json\n')
 job = json.load(open('./job.json',))
