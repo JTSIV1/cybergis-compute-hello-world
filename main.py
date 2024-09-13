@@ -2,6 +2,8 @@ import json
 import os
 import time
 
+time.sleep(60)
+
 print('running main...\n')
 
 print('./job.json\n')
